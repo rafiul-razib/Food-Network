@@ -1,0 +1,48 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.half-width h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.orange{
+    color: orange;
+}
+
+.grey{
+    color: #575757
+}
+
+.half-width{
+    width: 50%;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.half-width p{
+    color: gray;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.link-btn{
+    text-decoration: none;
+    background-image: linear-gradient(90deg, orange, tomato);
+    color: white;
+    font-weight: 500;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+.half-width img{
+    width: 85%;
+}

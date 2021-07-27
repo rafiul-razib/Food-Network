@@ -46,3 +46,23 @@ body{
 .half-width img{
     width: 85%;
 }
+
+#part-1{
+    height: 700px;
+}
+
+#part-2{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+    color:#575757;
+}
+
+#part-2 img{
+    width: 20%;
+    position: absolute;
+    bottom: 0;
+    margin-left: 120px;
+}

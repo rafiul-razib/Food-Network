@@ -174,3 +174,8 @@ li:hover{
     border-radius: 4px;
     color: white;
 }
+
+.rating-container:hover{
+    background-color: gray;
+    color: white;
+}

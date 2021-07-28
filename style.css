@@ -3,6 +3,12 @@ body{
     margin: 0;
 }
 
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
 .flex-container{
     display: flex;
     justify-content: space-around;
@@ -43,12 +49,16 @@ body{
     border-radius: 30px;
 }
 
+.link-btn:hover{
+    border: 3px solid #575757;
+}
+
 .half-width img{
     width: 85%;
 }
 
 #part-1{
-    height: 700px;
+    height: 650px;
 }
 
 #part-2{
@@ -97,6 +107,11 @@ body{
     margin: 20px;
 }
 
+.food:hover{
+    background-color: gray;
+    color: white;
+}
+
 .food-container{
     display: flex;
     justify-content: center;
@@ -128,3 +143,34 @@ footer{
     padding: 40px;
 }
 
+.playstore img{
+    width: 30%;
+}
+
+.bonus-2{
+    padding: 30px;
+    height: 280px;
+}
+
+.navbar li{
+    list-style-type: none;
+    padding: 10px;
+    font-size: small;
+    font-weight: 600;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+li a{
+    text-decoration: none;
+    color: #575757;
+}
+
+li:hover{
+    background-color: tomato;
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: white;
+}

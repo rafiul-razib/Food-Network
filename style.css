@@ -66,3 +66,58 @@ body{
     bottom: 0;
     margin-left: 120px;
 }
+
+.text{
+    text-align: center;
+}
+
+.text h2{
+    color: #575757;
+}
+.text p{
+    color: black;
+    width: 50%;
+    margin: auto;;
+}
+
+.food img{
+    width: 300px;
+    border-radius: 35px;
+    margin: 6%;
+}
+
+.food h2, p{
+    padding: 10px 20px;
+}
+
+.food{
+    width: 27%;
+    border-radius: 35px;
+    box-shadow: 10px 10px 30px lightgrey;
+    margin: 20px;
+}
+
+.food-container{
+    display: flex;
+    justify-content: center;
+}
+
+.rating{
+    text-align: center;
+}
+
+.rating h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.rating-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto;
+    padding: 40px;
+    box-shadow: 10px 10px 30px lightgrey;
+    width: 81%;
+    border-radius: 35px;
+}
+
